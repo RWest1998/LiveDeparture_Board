@@ -13,10 +13,9 @@ const fetchData = function() {
 };
 fetchData()
     .then(function(data) {
-        console.log(data);
         //display the stop name
         const stopName = data.stop_name;
-        document.getElementById('stop-name').innerHTML = stopName;
+        document.getElementById('stop').innerHTML = stopName + " Bus Timetable";
 
         const filteredItems = data.departures.filter(function(item){
             //splitting the departure time up into separate hours and minutes
@@ -30,9 +29,8 @@ fetchData()
                 return item;
             }
         });
-        console.log(filteredItems);
 
-        for(var index = 0; index < 10; index++) {
+        for(var index = 0; index < 15; index++) {
             var output = '<div class="row">' +
                 '<div class="col-sm"> ' +
                 '<div>' + filteredItems[index].destination + '</div> ' +
