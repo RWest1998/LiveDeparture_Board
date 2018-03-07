@@ -1,0 +1,23 @@
+{
+  "name": "livedeparture_board",
+  "version": "1.0.0",
+  "description": "Lothian Buses web project to show off my development skills",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RWest1998/LiveDeparture_Board.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RWest1998/LiveDeparture_Board/issues"
+  },
+  "homepage": "https://github.com/RWest1998/LiveDeparture_Board#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.2"
+  }
+}
