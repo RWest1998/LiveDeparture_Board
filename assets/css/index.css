@@ -1,0 +1,43 @@
+body {
+    background-color: #ece9df;
+    color: #333;
+    font-family: 'Lato', sans-serif;
+}
+
+.main-title {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 5px solid #711417;
+    background-color: #fff;
+}
+
+.bus-stop {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.container .row {
+    border: 1px solid #333;
+}
+.subtitle {
+   font-size: 1.2rem;
+}
+
+@media(max-width: 768px){
+    .main-title {
+        font-size: 2rem;
+    }
+}
+
+@media(max-width: 595px){
+    .main-title {
+        font-size: 1.75rem;
+        padding-top: 1rem;
+        flex-direction: column;
+    }
+    .bus-stop {
+        display: flex;
+        justify-content: center;
+    }
+}
