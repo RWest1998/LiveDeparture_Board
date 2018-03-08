@@ -32,7 +32,12 @@ body {
 
 @media(max-width: 595px){
     .main-title {
+        font-size: 1.75rem;
         padding-top: 1rem;
-        display: block;
+        flex-direction: column;
+    }
+    .bus-stop {
+        display: flex;
+        justify-content: center;
     }
 }
